@@ -143,8 +143,8 @@ h1 {
 }
 
 .container .content .cards .card .icon-design img {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
 }
 
 .container .container .content-ii {
@@ -155,3 +155,6 @@ h1 {
     flex-wrap: wrap;
 }
 
+.pix {
+    color: black;
+}
