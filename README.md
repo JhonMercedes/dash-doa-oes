@@ -1,3 +1,1 @@
-Projeto SUPREMA OPERAÇÃO v1.0
-
-Fork Lucas Batista
+Projeto v 1.0
