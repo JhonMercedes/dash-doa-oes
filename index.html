@@ -1,73 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Projeto familia feliz</title>
+  <meta charset="UTF-8" />
+  <title>Doações</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 </head>
 <body>
-    <div class="side-bar">
-        <div class="logo-name">
-            <h1>Doacoes</h1>
-        </div>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#" class="logo">
+          <img src="./img/logo.jpg">
+          <span class="nav-item"></span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-menorah"></i>
+          <span class="nav-item">Dashboard</span>
+        </a></li>
+        <!-- Adicionando logout-->
+        <li><a href="#" class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="nav-item">Log out</span>
+        </a></li>
+      </ul>
+    </nav>
 
-        <ul>
-            <li> <img src="img/dashboard.png" alt=""> &nbsp; Dashboard</li>
-        </ul>
-    </div>
-    <div class="container">
-        <div class="header">
-        </div>
-        <div class="content">
-            <div class="cards">
-                <div class="card">
-                    <div class="box">
-                        <h2>R$ 80,00</h2>
-                        <h3>Cesta Básica</h3>
-                    </div>
-                    <div class="icon-design">
-                        <img src="/img/cesta-de-compras.png" alt="">
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <h2>R$ 0,00</h2>
-                        <h3>Total Arrecadado</h3>
-                    </div>
-                    <div class="icon-design">
-                        <img src="/img/money.png" alt="">
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <h2>R$ 0,00</h2>
-                        <h3>PIX</h3>
-                    </div>
-                    <div class="icon-design">
-                        <img src="/img/smartphone.png" alt="">
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <h2>R$ 0,00</h2>
-                        <h3>Doações</h3>
-                    </div>
-                    <div class="icon-design">
-                        <img src="/img/cash-payment.png" alt="">
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <h3>QRCODE</h3>
-                    </div>
-                    <div class="icon-design" >
-                        <img src="/img/qr-code-scan.png" alt="">
-                    </div>
-                </div>
+    <!--Principal painel de doações-->
+    <section class="main">
+        <div class="main-top">
+            <h1>Dash</h1>
+          </div>
+          <div class="users">
+            <div class="card">
+              <img src="./img/cesta.png">
+              <h4>Cesta</h4>
+              <p>Valor Medio</p>
+              <div class="per">
+              </div>
+              <button>R$ 80,00</button>
             </div>
+            <div class="card">
+                <img src="./img/money.png">
+                <h4>Total</h4>
+                <p>arrecadado</p>
+                <div class="per">
+                </div>
+                <button>R$ 50,00</button>
+              </div>
+          </div>
+      <div class="main-top">
+        <h1>Doações Recentes</h1>
+        <i class="fas fa-user-cog"></i>
+      </div>
+      <div class="users">
+        <div class="card">
+          <img src="./img/membros/jhon.jpeg">
+          <h4>Jhon Armando</h4>
+          <p>infraestrutura</p>
+          <div class="per">
+          </div>
+          <button>R$ 50,00</button>
         </div>
-    </div>
+        <div class="card">
+            <img src="./pic/img1.jpg">
+            <h4>nome</h4>
+            <p>dp</p>
+            <div class="per">
+            </div>
+            <button>R$ 0,00</button>
+          </div>
+          <div class="card">
+            <img src="./pic/img1.jpg">
+            <h4>nome</h4>
+            <p>dp</p>
+            <div class="per">
+            </div>
+            <button>R$ 0,00</button>
+          </div>
+          <div class="card">
+            <img src="./pic/img1.jpg">
+            <h4>nome</h4>
+            <p>dp</p>
+            <div class="per">
+            </div>
+            <button>R$ 0,00</button>
+          </div>
+      </div>
+      <!--Lista do time doador-->
+      <section class="attendance">
+        <div class="attendance-list">
+          <h1>Equipe SUPREMA OPERAÇÃO</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Depart</th>
+                <th>Doação Total</th> 
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <tr class="active">
+                <td>01</td>
+                <td>Jhon Armando</td>
+                <td>INFRA</td>
+                <td>R$ 50,00</td></tr>
+                
+              </tr>
+                <td>02</td>
+                <td></td>
+                <td></td>
+                <td>R$ 0,00</td>
+                
+              </tr>
+              <tr>
+                <td>03</td>
+                <td></td>
+                <td></td>
+                <td>R$ 0,00</td>
+                
+              </tr>
+              <tr>
+                <td>04</td>
+                <td></td>
+                <td></td>
+                <td>R$ 0,00</td>
+               
+              </tr>
+              <!-- <tr >
+                <td>05</td>
+                <td>Salina</td>
+                <td>Coding</td>
+                <td>R$ 0,00</td>
+                
+              </tr>
+              <tr >
+                <td>06</td>
+                <td>Tara Smith</td>
+                <td>Testing</td>
+                <td>R$ 0,00</td>
+                
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+
 </body>
 </html>
