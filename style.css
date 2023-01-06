@@ -129,11 +129,7 @@ a:hover i{
 .users table{
   margin:  auto;
 }
-.users .per span{
-  padding: 5px;
-  border-radius: 10px;
-  background: rgb(223, 223, 223);
-}
+
 .users td{
   font-size: 14px;
   padding-right: 15px;
@@ -154,11 +150,11 @@ a:hover i{
 }
 
 /*Equipe Lista section  */
-.attendance{
+.equipe{
   margin-top: 20px;
   text-transform: capitalize;
 }
-.attendance-list{
+.equipe-list{
   width: 100%;
   padding: 10px;
   margin-top: 10px;
@@ -190,22 +186,10 @@ table thead tr{
 .table tbody tr:nth-of-type(odd){
   background: #f3f3f3;
 }
-.table tbody tr.active{
+.table tbody tr.top1{
   font-weight: bold;
   color: #4AD489;
 }
 .table tbody tr:last-of-type{
   border-bottom: 2px solid #4AD489;
-}
-.table button{
-  padding: 6px 20px;
-  border-radius: 10px;
-  cursor: pointer;
-  background: transparent;
-  border: 1px solid #4AD489;
-}
-.table button:hover{
-  background: #4AD489;
-  color: #fff;
-  transition: 0.5rem;
 }
