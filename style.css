@@ -18,16 +18,13 @@ nav{
   bottom: 0;
   height: 100vh;
   left: 0;
-  width: 90px;
-  /* width: 280px; */
+  /* width: 90px; */
+  width: 280px;
   background: #fff;
   overflow: hidden;
-  transition: 1s;
+  /* transition: 1s; */
 }
-nav:hover{
-  width: 280px;
-  transition: 1s;
-}
+
 .logo{
   text-align: center;
   display: flex;
@@ -158,7 +155,7 @@ a:hover i{
 }
 table thead tr{
   color: #fff;
-  background: #34AF6D;
+  background: #0516d7;
   text-align: left;
   font-weight: bold;
 }
