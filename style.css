@@ -179,10 +179,10 @@ table thead tr{
 }
 .table tbody tr.ativo{
   font-weight: bold;
-  color: #4AD489;
+  color: #05ef6e;
 }
 .table tbody tr.inativo{
-  font-weight: bold;
+  
   color: #e72209;
 }
 .table tbody tr:last-of-type{
