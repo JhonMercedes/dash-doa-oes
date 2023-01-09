@@ -1,103 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <title>Projeto1</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./img/favicon.ico">
+	<link rel="stylesheet" href="./css/estilo.css">
+	<title>Faça uma Família Feliz!</title>
 </head>
 <body>
-  <div class="container">
-    <nav>
-      <ul>
-        <li><a href="#" class="logo">
-          <img src="./img/logo.jpg">
-          <span class="nav-item">Suprema <br> Operacao</span>
-        </a></li>
-        <li><a href="#">
-          <i class="fas fa-chart-bar"></i>
-          <span class="nav-item">Dashboard</span>
-        </a></li>
-        <li><a href="#">
-          <i class="fas fa-users"></i>
-          <span class="nav-item">Doadores</span>
-        </a></li>
-        <li><a href="info.html">
-          <i class="fas fa-qrcode"></i>
-          <span class="nav-item">QRCode</span>
-        </a></li>
-        <!-- Adicionando logout-->
-        <li><a href="#" class="logout">
-          <i class="fas fa-sign-out-alt"></i>
-          <span class="nav-item">Log out</span>
-        </a></li>
-      </ul>
-    </nav>
 
-    <!--Informacao das doacoes-->
-    <section class="main">
-        <div class="main-top">
-            <h1>Dash</h1>
-          </div>
-          <div class="users">
-            <div class="card">
-              <img src="./img/cesta.png">
-              <h4>Cesta</h4>
-              <p>Valor Medio</p>
-              <p>R$ 80,00</p>
-            </div>
-            <div class="card">
-                <img src="./img/money.png">
-                <h4>Total</h4>
-                <p>arrecadado</p>
-                <p>R$ 50,00</p>
-              </div>
-            <div class="card">
-                <img src="./img/qrcode.png">    
-                <h4>QRCode</h4>
-                <p></p>
-                <button onclick="info.html">Clique Aqui</button>
-            </div>
-            <div class="card">
-              <img src="./img/img-principal.png">
-              <h4>PIX</h4>
-              <p>Chave Aleatoria</p>
-              <p>a91b5037-6437-4a6d-988f-4a3358ee0643</p>
-              
-          </div>
-          </div>
-      <div class="main-top">
-        <h1>Doacoes Recentes</h1>
-      </div>
-      <div class="users">
-        <div class="card">
-          <img src="./img/membros/avatar1.png">
-          <h4>Jhon Armando</h4>
-          <p></p>
-          <p>R$ 20,00</p>
-        </div>
-        <div class="card">
-            <img src="./img/membros/avatar2.png">
-            <h4>nome</h4>
-            <p></p>
-            <p>R$ 10,00</p>
-          </div>
-          <div class="card">
-            <img src="./img/membros/avatar3.png">
-            <h4>nome</h4>
-            <p></p>
-            <p>R$ 10,00</p>
-          </div>
-          <div class="card">
-            <img src="./img/membros/avatar4.png">
-            <h4>nome</h4>
-            <p></p>
-            <p>R$ 10,00</p>
-          </div>
-      </div>
-    </section>
-  </div>
+	<main>
+			
+		<section class="esquerdo">
+
+			<img src="./img/img-principal.png">
+			
+				<div class="texto">
+					<h1>sua doação vai ajudar famílias em dias difíceis!</h1>
+					<p>
+						Todo valor arrecadado será convertido em cestas básicas
+						para famílias carentes, projeto de ação social sem fins
+						lucrativos. O pouco pra você é a alegria de muitos!	
+					</p>
+				</div>
+			<a href="dash.html">
+				<button>Painel Doações</button>
+			</a>
+		</section>
+
+		<section class="direito">
+			
+				<div class="pix">
+					<img src="./img/qr.png">
+					<p>Aponte a Câmera<br>no QRCode</p>
+				</div>
+			
+		</section>
+
+	</main>
 
 </body>
 </html>
