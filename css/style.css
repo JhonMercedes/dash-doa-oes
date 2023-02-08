@@ -1,6 +1,7 @@
 /*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-*{
+
+* {
   margin: 0;
   padding: 0;
   outline: none;
@@ -9,41 +10,46 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body{
-  background-color:#e1f2fa;
+
+body {
+  background-color: #e1f2fa;
 }
-nav{
-  position: sticky;
+
+nav {
+  display: block;
+  position:sticky;
   top: 0;
   bottom: 0;
   height: 100vh;
   left: 0;
   /* width: 90px; */
-  width: 280px;
+  width: 105px;
   background: #fff;
   overflow: hidden;
   /* transition: 1s; */
 }
 
-.logo{
+.logo {
   text-align: center;
   display: flex;
   margin: 10px 0 0 10px;
   padding-bottom: 3rem;
 }
 
-.logo img{
+.logo img {
   width: 55px;
   height: 55px;
   border-radius: 50%;
 }
-.logo span{
+
+.logo span {
   font-weight: bold;
   padding-left: 15px;
   font-size: 18px;
   text-transform: uppercase;
 }
-a{
+
+a {
   position: relative;
   width: 280px;
   font-size: 14px;
@@ -51,7 +57,8 @@ a{
   display: table;
   padding: 10px;
 }
-nav .fas{
+
+nav .fas {
   position: relative;
   width: 70px;
   height: 40px;
@@ -59,49 +66,57 @@ nav .fas{
   font-size: 20px;
   text-align: center;
 }
-.nav-item{
+
+.nav-item {
   position: relative;
   top: 12px;
   margin-left: 10px;
 }
-a:hover{
+
+/* a:hover{
   background: #eee;
-}
-a:hover i{
+} */
+a:hover i {
   color: #ec4520;
   transition: 0.5s;
 }
-.logout{
+
+.logout {
   position: absolute;
   bottom: 0;
 }
 
-.container{
+.container {
   display: flex;
 }
 
 /* MAin Section */
-.main{
-  position: relative;
+.main {
+  
   padding: 20px;
   width: 100%;
+  
 }
-.main-top{
+
+.main-top {
   display: flex;
   width: 100%;
 }
-.main-top i{
+
+.main-top i {
   position: absolute;
   right: 0;
   margin: 10px 30px;
   color: rgb(110, 109, 109);
   cursor: pointer;
 }
-.main .users{
+
+.main .users {
   display: flex;
   width: 100%;
 }
-.users .card{
+
+.users .card {
   width: 25%;
   margin: 10px;
   background: #fff;
@@ -110,34 +125,39 @@ a:hover i{
   padding: 10px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
-.users .card img{
+
+.users .card img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
 }
-.users .card h4{
+
+.users .card h4 {
   text-transform: uppercase;
 }
-.users .card p{
+
+.users .card p {
   font-size: 12px;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
-.users table{
-  margin:  auto;
+
+.users table {
+  margin: auto;
 }
 
-.users td{
+.users td {
   font-size: 14px;
   padding-right: 15px;
 }
 
 /*Equipe Lista section  */
-.equipe{
+.equipe {
   margin-top: 20px;
   text-transform: capitalize;
 }
-.equipe-list{
+
+.equipe-list {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
@@ -145,7 +165,8 @@ a:hover i{
   border-radius: 10px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
-.table{
+
+.table {
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 15px;
@@ -153,31 +174,37 @@ a:hover i{
   overflow: hidden;
   border-radius: 5px 5px 0 0;
 }
-table thead tr{
+
+table thead tr {
   color: #fff;
   background: #ec212bd9;
   text-align: left;
   font-weight: bold;
 }
+
 .table th,
-.table td{
+.table td {
   padding: 12px 15px;
 }
-.table tbody tr{
+
+.table tbody tr {
   border-bottom: 1px solid #ddd;
 }
-.table tbody tr:nth-of-type(odd){
+
+.table tbody tr:nth-of-type(odd) {
   background: #f3f3f3;
 }
-.table tbody tr.ativo{
+
+.table tbody tr.ativo {
   font-weight: bold;
   color: blue;
 }
-.table tbody tr.inativo{
-  
+
+.table tbody tr.inativo {
+
   color: #e72209;
 }
-.table tbody tr:last-of-type{
+
+.table tbody tr:last-of-type {
   border-bottom: 2px solid #1e3ce8;
 }
-
