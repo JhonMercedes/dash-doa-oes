@@ -177,7 +177,7 @@ a:hover i {
 
 table thead tr {
   color: #fff;
-  background: #ec212bd9;
+  background:  #4798c3;
   text-align: left;
   font-weight: bold;
 }
@@ -192,12 +192,12 @@ table thead tr {
 }
 
 .table tbody tr:nth-of-type(odd) {
-  background: #f3f3f3;
+  background-color: transparent;
 }
 
 .table tbody tr.ativo {
   font-weight: bold;
-  color: blue;
+  color: #4798c3;
 }
 
 .table tbody tr.inativo {
@@ -206,5 +206,5 @@ table thead tr {
 }
 
 .table tbody tr:last-of-type {
-  border-bottom: 2px solid #1e3ce8;
+  border-bottom: 2px solid #070809;
 }
